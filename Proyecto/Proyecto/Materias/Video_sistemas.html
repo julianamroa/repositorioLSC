@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Página LSC | YouTube</title>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+	<body>
+		<div class="contenedor active" id="contenedor">
+			<header class="header">
+				<div class="contenedor-logo">
+                <button id="boton-menu" class="boton-menu"><i class="fas fa-bars"></i></button>
+                <a href="#" class="logo"><i class="fas fa-play"></i> <span>UTS</span></a>
+            </div>
+            <div class="barra-busqueda">
+                <input type="text" id="searchInput" placeholder="Buscar por título...">
+                <button onclick="buscarVideo()">Buscar</button>
+            </div>
+			</header>
+	
+			<nav class="menu-lateral">
+				<a href="../index.html" class="active"><i class="fas fa-home"></i> Página Principal</a>
+				<hr>
+				<a href="Video_sistemas.html"><i class="fas fa-folder"></i> Sistemas</a>
+				<a href="Video_deportes.html"><i class="fas fa-folder"></i> Deportes</a>
+				<a href="Video_moda.html"><i class="fas fa-folder"></i> Diseño de Moda</a>
+                <a href="Video_administracion.html"><i class="fas fa-folder"></i> Administracion Empresarial</a>
+				<a href="Video_contabilidad.html"><i class="fas fa-folder"></i> Contabilidad</a>
+			</nav>
+	
+            <main class="main">
+                <h3 class="titulo">Videos Sistemas</h3>
+                <div class="grid-videos">
+                 <div class="video-container" data-title="Algoritmos">
+                    <iframe width="350" height="200" src="https://www.youtube.com/embed/ZrsSq7pdNdg" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-title">Algoritmos</div>
+                </div>
+                <div class="video-container" data-title="Angular">
+                    <iframe width="350" height="200" src="https://www.youtube.com/embed/IehqgD-OsNA" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-title">Angular</div>
+                </div>
+                <div class="video-container" data-title="Antivirus">
+                    <iframe width="350" height="200" src="https://www.youtube.com/embed/JpNbRuP2cS4" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-title">Antivirus</div>
+                </div>
+				<div class="video-container" data-title="Api">
+                    <iframe width="350" height="200" src="https://www.youtube.com/embed/DzvdIgfykQU" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-title">Api</div>
+                </div>
+                <div class="video-container" data-title="Apple">
+                    <iframe width="350" height="200" src="https://www.youtube.com/embed/77u0iqDC17M" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-title">Apple</div>
+                </div>
+				<div class="video-container" data-title="Array">
+                    <iframe width="350" height="200" src="https://www.youtube.com/embed/uJisw-ZyeKQ" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-title">Array</div>
+                </div>
+				<div class="video-container" data-title="Atributos">
+                    <iframe width="350" height="200" src="https://www.youtube.com/embed/gAsiK1oj7Mk" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-title">Atributos</div>
+                </div>
+                <div class="video-container" data-title="Backend">
+                    <iframe width="350" height="200" src="https://www.youtube.com/embed/-79kr2Yv1Rw" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-title">Backend</div>
+                </div>
+				<div class="video-container" data-title="Banda Ancha">
+                    <iframe width="350" height="200" src="https://www.youtube.com/embed/C8-FEpjnZFQ" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-title">Banda Ancha</div>
+                </div> 
+				<div class="video-container" data-title="Base de Datos">
+                    <iframe width="350" height="200" src="https://www.youtube.com/embed/gPofQ0Nn3Ls" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-title">Base de Datos</div>
+                </div>  
+				
+				<div class="video-container" data-title="Big Data">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/RaggylDUSDY" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Big Data</div>
+				</div>
+				<div class="video-container" data-title="Boton">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/V0JfH2y7XxY" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Boton</div>
+				</div>
+				<div class="video-container" data-title="Browsers-Navegadores">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/5SZtF8y8VaI" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Browsers-Navegadores</div>
+				</div>
+				<div class="video-container" data-title="C#">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/1nOb27yiHRk" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">C#</div>
+				</div>
+				<div class="video-container" data-title="C++">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/LA4b-iHh0GQ" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">C++</div>
+				</div>
+				<div class="video-container" data-title="Chrome">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/H6DpbDLJN3w" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Chrome</div>
+				</div>
+				<div class="video-container" data-title="Ciberseguridad">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/VjdDF0UOb9A" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Ciberseguridad</div>
+				</div>
+				<div class="video-container" data-title="Cifrado">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/8blCkwiueKY" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Cifrado</div>
+				</div>
+
+				<div class="video-container" data-title="Cloud-Nube">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/2ypFe5kjoFs" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Cloud-Nube</div>
+				</div>
+				<div class="video-container" data-title="Codigo">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/fGvUoq1RVeQ" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Codigo</div>
+				</div>
+				<div class="video-container" data-title="Comandos">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/OCsTDF7gL6w" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Comandos</div>
+				</div>
+				<div class="video-container" data-title="Compilador">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/k7cViOhq5zM" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Compilador</div>
+				</div>
+				<div class="video-container" data-title="Conectividad">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/8D_SyCrY9f8" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Conectividad</div>
+				</div>
+				<div class="video-container" data-title="Copiar y Pegar">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/NyCGudVeGVw" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Copiar y Pegar</div>
+				</div>
+				<div class="video-container" data-title="CPU">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/caA46WZ8c2g" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">CPU</div>
+				</div>
+
+				<div class="video-container" data-title="Cracker">
+                    <iframe width="350" height="200" src="https://www.youtube.com/embed/hpLG9Auduhc" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-title">Cracker</div>
+                </div>
+				<div class="video-container" data-title="Delete-Borrar">
+                    <iframe width="350" height="200" src="https://www.youtube.com/embed/wLKaFOvw978" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-title">Delete-Borrar</div>
+                </div>
+                <div class="video-container" data-title="Diagrama de Clase">
+                    <iframe width="350" height="200" src="https://www.youtube.com/embed/VcEqmAM2i5Q" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-title">Diagrama de Clase</div>
+                </div>
+                <div class="video-container" data-title="Disco Duro">
+                    <iframe width="350" height="200" src="https://www.youtube.com/embed/cNqBTsCHrwQ" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-title">Disco Duro</div>
+                </div>
+                <div class="video-container" data-title="Diseño Web">
+                    <iframe width="350" height="200" src="https://www.youtube.com/embed/xZQ5gTCmxt8" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-title">Diseño Web</div>
+                </div>
+				<div class="video-container" data-title="Django">
+                    <iframe width="350" height="200" src="https://www.youtube.com/embed/DVrqc-_0MY4" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-title">Django</div>
+                </div>
+				<div class="video-container" data-title="Docker">
+                    <iframe width="350" height="200" src="https://www.youtube.com/embed/ESHK89uJtZw" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-title">Docker</div>
+                </div>
+                <div class="video-container" data-title="Documentos">
+                    <iframe width="350" height="200" src="https://www.youtube.com/embed/mPBysBn4RCY" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-title">Documentos</div>
+                </div>
+				<div class="video-container" data-title="Download-Descargar">
+                    <iframe width="350" height="200" src="https://www.youtube.com/embed/BGEANUrqJ5A" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-title">Download-Descargar</div>
+                </div>
+				<div class="video-container" data-title="Drag-Arrastrar">
+                    <iframe width="350" height="200" src="https://www.youtube.com/embed/Wr4iDh43DMM" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-title">Drag-Arrastrar</div>
+                </div>
+				<div class="video-container" data-title="Eclipse">
+                    <iframe width="350" height="200" src="https://www.youtube.com/embed/2cKxQ9WoIQQ" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-title">Eclipse</div>
+                </div>   
+				
+				<div class="video-container" data-title="Edge">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/fqUQ4-ySlTw" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Edge</div>
+				</div>
+				<div class="video-container" data-title="Encriptaciòn">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/-BfUOHA0upg" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Encriptaciòn</div>
+				</div>
+				<div class="video-container" data-title="Express">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/w6Med3HSX4A" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Express</div>
+				</div>
+				<div class="video-container" data-title="File-Archivo-Fichero">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/KakMZ3rSl08" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">File-Archivo-Fichero</div>
+				</div>
+				<div class="video-container" data-title="Firewall">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/faUs8qOgxk0" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Firewall</div>
+				</div>
+				<div class="video-container" data-title="Frontend">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/IurbzlM62P8" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Frontend</div>
+				</div>
+				<div class="video-container" data-title="For">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/lrznVh_uR9E" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">For</div>
+				</div>
+
+				<div class="video-container" data-title="Foreign Key">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/lk15vvmN7v4" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Foreign Key</div>
+				</div>
+				<div class="video-container" data-title="Funciòn">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/n0TzQps0EB4" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Funciòn</div>
+				</div>
+				<div class="video-container" data-title="Git">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/wzGoWdDu3wo" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Git</div>
+				</div>
+				<div class="video-container" data-title="GitHub">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/wPQyS2hWSfQ" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">GitHub</div>
+				</div>
+				<div class="video-container" data-title="GitLab">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/ZRqI28Ba2Pg" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">GitLab</div>
+				</div>
+				<div class="video-container" data-title="Hacker">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/mpBQvIo725Y" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Hacker</div>
+				</div>
+				<div class="video-container" data-title="Hardware">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/6kHZ4zNrmeY" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Hardware</div>
+				</div>
+				<div class="video-container" data-title="IA">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/oJAIePVSibY" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">IA</div>
+				</div>
+				<div class="video-container" data-title="IF">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/8THra6Fc7do" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">IF</div>
+				</div>
+				<div class="video-container" data-title="Interfaz">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/dG2xBaUBSWU" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Interfaz</div>
+				</div>
+				<div class="video-container" data-title="Java">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/vnNH2-kvwtY" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Java</div>
+				</div>
+				<div class="video-container" data-title="Juegos-Games">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/8vrvynJADZU" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Juegos-Games</div>
+				</div>
+				<div class="video-container" data-title="Linux">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/DMqadorasvg" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Linux</div>
+				</div>
+
+
+				<div class="video-container" data-title="Maquina Virtual">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/dVulYQ5Y3c4" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Maquina Virtual</div>
+				</div>
+				<div class="video-container" data-title="Memoria Ram">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/kZc0nSTLzrs" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Memoria Ram</div>
+				</div>
+				<div class="video-container" data-title="Memoria">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/NAIxChoaRTM" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Memoria</div>
+				</div>
+				<div class="video-container" data-title="Mozilla Firefox">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/UygZSMGXydY" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Mozilla Firefox</div>
+				</div>
+				<div class="video-container" data-title="Mysql">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/t87pPzfw2iw" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Mysql</div>
+				</div>
+				<div class="video-container" data-title="Netbeans">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/z606ONcyYQY" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Netbeans</div>
+				</div>
+				<div class="video-container" data-title="Network">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/dbEJRhd-spg" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Network</div>
+				</div>
+
+				<div class="video-container" data-title="Node">
+                    <iframe width="350" height="200" src="https://www.youtube.com/embed/aKOFEqTIcZo" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-title">Node</div>
+                </div>
+                <div class="video-container" data-title="NoSQL">
+                    <iframe width="350" height="200" src="https://www.youtube.com/embed/DMzd3bu8whQ" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-title">NoSQL</div>
+                </div>
+                <div class="video-container" data-title="Perl">
+                    <iframe width="350" height="200" src="https://www.youtube.com/embed/xiPzKR3wEVo" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-title">Perl</div>
+                </div>
+				<div class="video-container" data-title="PHP">
+                    <iframe width="350" height="200" src="https://www.youtube.com/embed/WqdQOzDZUig" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-title">PHP</div>
+                </div>
+                <div class="video-container" data-title="Programación Orientada a Objetos">
+                    <iframe width="350" height="200" src="https://www.youtube.com/embed/BemNzcRrgDg" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-title">Programación Orientada a Objetos</div>
+                </div>
+				<div class="video-container" data-title="Protocolos">
+                    <iframe width="350" height="200" src="https://www.youtube.com/embed/UHdUSEHFe3A" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-title">Protocolos</div>
+                </div>
+				<div class="video-container" data-title="Primary Key">
+                    <iframe width="350" height="200" src="https://www.youtube.com/embed/3gyGsvYLd2s" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-title">Primary Key</div>
+                </div>
+				<div class="video-container" data-title="Procesador de Texto">
+                    <iframe width="350" height="200" src="https://www.youtube.com/embed/EpCMdQpHsDg" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-title">Procesador de Texto</div>
+                </div>
+                <div class="video-container" data-title="Procesador">
+                    <iframe width="350" height="200" src="https://www.youtube.com/embed/ZYHVhGB4RGs" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-title">Procesador</div>
+                </div>
+				<div class="video-container" data-title="Python">
+                    <iframe width="350" height="200" src="https://www.youtube.com/embed/9-lJbJ7dLwM" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-title">Python</div>
+                </div>
+				<div class="video-container" data-title="React">
+                    <iframe width="350" height="200" src="https://www.youtube.com/embed/iWxGNGqv_Yc" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-title">React</div>
+                </div>   
+				
+				<div class="video-container" data-title="Scrum">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/wXJSVbdBpqo" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Scrum</div>
+				</div>
+				<div class="video-container" data-title="Seguridad">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/33DSPTf2jWU" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Seguridad</div>
+				</div>
+				<div class="video-container" data-title="Servidor">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/XICGg4FxOOU" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Servidor</div>
+				</div>
+				<div class="video-container" data-title="Powershell">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/W--zU4gy6Oc" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">PowerShell</div>
+				</div>
+				<div class="video-container" data-title="Sistema Operativo">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/9THnMWGVRss" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Sistema Operativo</div>
+				</div>
+				<div class="video-container" data-title="Sistemas">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/RrzpCMm8KZE" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Sistemas</div>
+				</div>
+				<div class="video-container" data-title="Software">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/GgwoHDclQ_c" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Software</div>
+				</div>
+
+				<div class="video-container" data-title="SQL">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/f3i2gEwElvo" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">SQL</div>
+				</div>
+				<div class="video-container" data-title="Surf-Navegador">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/kivojNfvrHk" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Surf-Navegador</div>
+				</div>
+				<div class="video-container" data-title="Tarjeta Grafica">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/2xVFj_PR5O0" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Tarjeta Grafica</div>
+				</div>
+				<div class="video-container" data-title="Tarjeta Madre">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/qn4yL27MxeE" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Tarjeta Madre</div>
+				</div>
+				<div class="video-container" data-title="Tokens de Seguridad">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/QbSLQGlT96g" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Tokens de Seguridad</div>
+				</div>
+				<div class="video-container" data-title="Ubuntu">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/-cF5nXQ-lFQ" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Ubuntu</div>
+				</div>
+				<div class="video-container" data-title="Unix">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/9EbNw9Bj2rI" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Unix</div>
+				</div>
+				<div class="video-container" data-title="Uml">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/T68GWxqmYkg" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Uml</div>
+				</div>
+				<div class="video-container" data-title="Visual Basic">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/7QUB3u7L1o8" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Visual Basic</div>
+				</div>
+				<div class="video-container" data-title="Visual Studio">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/tKH4kSXimY8" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Visual Studio</div>
+				</div>
+				<div class="video-container" data-title="Vue">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/VkSjH2fgsYM" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Vue</div>
+				</div>
+				<div class="video-container" data-title="While">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/dR0RBOs9NoY" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">While</div>
+				</div>
+				<div class="video-container" data-title="Wifi">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/OQTdcClHd-M" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Wifi</div>
+				</div>
+				<div class="video-container" data-title="Wireless-Inalambrico">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/pO0kcgi7CtI" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Wireless-Inalambrico</div>
+				</div>
+				<div class="video-container" data-title="Xampp">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/pX9wFnkncnQ" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Xampp</div>
+				</div>
+				<div class="video-container" data-title="Xml">
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/xilMMW3orv8" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+					<div class="video-title">Xml</div>
+				</div>
+			</div>
+
+
+                </div>
+            </main>
+		</div>
+		<script>
+			function buscarVideo() {
+				const input = document.getElementById('searchInput').value.toLowerCase();
+				const videos = document.querySelectorAll('.video-container');
+				let encontrado = false;
+	
+				videos.forEach(video => {
+					const title = video.getAttribute('data-title').toLowerCase();
+					// Si el título contiene lo que busca el usuario, muestra el video, sino, ocúltalo
+					if (title.includes(input)) {
+						video.style.display = 'block';  // Muestra el video
+						encontrado = true;
+					} else {
+						video.style.display = 'none';  // Oculta el video
+					}
+				});
+	
+				if (!encontrado) {
+					alert("No se encontró ningún video con ese título.");
+				}
+			}
+			
+		</script>
+		<script src="https://kit.fontawesome.com/768a127a3f.js" crossorigin="anonymous"></script>
+		<script src="../js/script.js"></script>
+	</body>
+	</html>
+
